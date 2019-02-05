@@ -3,14 +3,12 @@ package com.hk2.test;
 import org.jvnet.hk2.annotations.Service;
 
 import javax.annotation.PostConstruct;
-import javax.inject.Named;
 
 @Service
-@Named
-public class MyServiceImpl implements MyService {
+public class MyServiceImpl2 implements MyService {
     public static int count = 0;
 
-    public MyServiceImpl() {
+    public MyServiceImpl2() {
         System.out.println(this.getClass().getName() + " " + count++);
     }
 

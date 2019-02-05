@@ -1,5 +1,0 @@
-META-INF/hk2-locator/default
-com/hk2/test/App$MyClass.class
-com/hk2/test/MyServiceImpl.class
-com/hk2/test/App.class
-com/hk2/test/MyService.class
